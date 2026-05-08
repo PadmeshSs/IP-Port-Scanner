@@ -1,0 +1,14 @@
+.scroll-container {
+  overflow: auto;
+  
+  /* Hide scrollbar - Firefox */
+  scrollbar-width: none;
+
+  /* Hide scrollbar - IE/Edge */
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar - Chrome, Safari */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
